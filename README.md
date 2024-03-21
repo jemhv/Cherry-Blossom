@@ -15,7 +15,7 @@ Installation guide
 type it in 
 ```
 git clone https://github.com/jemhv/Cherry-Blossom.git
-mv Cherry-Blossom
+cd Cherry-Blossom
 mv starship.toml ~/.config/
 ```
 
