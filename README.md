@@ -12,7 +12,7 @@ After installing, please  move the starship.config file in  ~/.config
 
 Installation guide 
 
-type it in 
+copy paste the following code in your terminal 
 ```
 git clone https://github.com/jemhv/Cherry-Blossom.git
 cd Cherry-Blossom
