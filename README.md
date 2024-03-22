@@ -1,13 +1,13 @@
 # Cherry-Blossom
 
-``` ![Prompt](https://github.com/jemhv/Cherry-Blossom/blob/main/images/cherry_blossom.png?raw=true) ```
+![Prompt](https://github.com/jemhv/Cherry-Blossom/blob/main/images/cherry_blossom.png?raw=true)
 
-``` ![Prompt](https://github.com/jemhv/Cherry-Blossom/blob/main/images/cherry_blossom-directory.png?raw=true) ```
+![Prompt](https://github.com/jemhv/Cherry-Blossom/blob/main/images/cherry_blossom_directory.png?raw=true)
 
 Starship Prompt Theme file. 
 
 > Requirements for installing --- 
-1. OS- Linux, MacOs
+1. OS: Linux, MacOs
 2. Starship Prompt
 3. git 
 
@@ -20,7 +20,7 @@ Starship Prompt Theme file.
 ```
 git clone https://github.com/jemhv/Cherry-Blossom.git
 cd Cherry-Blossom
-mv starship.toml ~/.config/
+cp -r starship.toml ~/.config/
 ```
 
 
