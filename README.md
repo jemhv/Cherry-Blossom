@@ -1,18 +1,22 @@
 # Cherry-Blossom
 
-![Prompt](https://github.com/jemhv/Cherry-Blossom/blob/main/images/cherry_blossom.png?raw=true)
+``` ![Prompt](https://github.com/jemhv/Cherry-Blossom/blob/main/images/cherry_blossom.png?raw=true) ```
 
-![Prompt](https://github.com/jemhv/Cherry-Blossom/blob/main/images/cherry_blossom-directory.png?raw=true)
+``` ![Prompt](https://github.com/jemhv/Cherry-Blossom/blob/main/images/cherry_blossom-directory.png?raw=true) ```
 
-Starship Prompt config file. 
+Starship Prompt Theme file. 
 
-To use this prompt you need to have starship prompt installed in your system. 
+> Requirements for installing --- 
+1. OS- Linux, MacOs
+2. Starship Prompt
+3. git 
 
-After installing, please  move the starship.config file in  ~/.config 
+> Installation guide 
+1. Download the files in your home directory.
+2. Copy the starship.config file in your ~/.config directory
 
-Installation guide 
 
-copy paste the following code in your terminal 
+> or simply copy paste the following code in your terminal 
 ```
 git clone https://github.com/jemhv/Cherry-Blossom.git
 cd Cherry-Blossom
