@@ -2,7 +2,9 @@
 
 
 ![Prompt](https://github.com/jemhv/Cherry-Blossom/blob/main/images/cherry-blossom-default.png?raw=true)
+
 > Custom ascii (optional)
+
 ![Prompt](https://github.com/jemhv/Cherry-Blossom/blob/main/images/cherry-blossom.png?raw=true)
 
 (The image is just a representation of the design, it may vary depending on the terminal used and the font. This example uses Arch Linux.)
