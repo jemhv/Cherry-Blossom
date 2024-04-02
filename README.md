@@ -31,7 +31,6 @@ cp -r starship.toml ~/.config/
 
 > To get the neofetch theme type the following code
 ```
-cd Cherry-Blossom
 cp -r ascii.txt config.conf ~/.config/neofetch/
 
 ```
