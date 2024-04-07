@@ -21,8 +21,10 @@ $ruby\
 $julia\
 [](fg:#AC87C5 bg:#756AB6)\
 $time\
-[ ](fg:#756AB6)\
+$battery\
+[](fg:#756AB6)\
 $line_break$character"""
+
 
 #	\n$character"""
 
@@ -154,6 +156,27 @@ disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#1d2230"
 format = '[[ ♥  $time ](fg:#F7EA00 bg:#756AB6)]($style)'
+
+[battery]
+disabled = false
+full_symbol = '󰁹'
+charging_symbol = '󰂄 '
+discharging_symbol = '󰂃'
+empty_symbol = '󰂎'
+format = '[$symbol]($style)'
+
+[[battery.display]]
+threshold = 10
+style = 'fg:#FF204E bg:#756AB6'
+
+[[battery.display]]
+threshold = 70
+style = "fg:#FFF455 bg:#756AB6"
+
+[[battery.display]]
+threshold = 100
+style = "fg:#C2F8CB bg:#756AB6"
+
 
 [line_break]
 disabled = false
