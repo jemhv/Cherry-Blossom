@@ -11,10 +11,14 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:#E0AED0 bg:#AC87C5)\
+$python\
 $nodejs\
+$swift\
 $rust\
 $golang\
 $php\
+$ruby\
+$julia\
 [](fg:#AC87C5 bg:#756AB6)\
 $time\
 [ ](fg:#756AB6)\
@@ -28,23 +32,49 @@ style = "bg:#FEC7B4 fg:#0D1282"
 
 
 [os.symbols]
-Windows = " 󰍲 "
-Ubuntu = " 󰕈 "
-SUSE = "  "
-Raspbian = " 󰐿 "
-Mint = " 󰣭 "
-Macos = " 󰀵 "
-Manjaro = "   "
-Linux = " 󰌽  "
-Gentoo = " 󰣨 "
-Fedora = " 󰣛 "
-Alpine = ""
-Arch = " 󰣇 "
-Artix = " 󰣇 "
-CentOS = "  "
-Debian = " 󰣚 "
-Redhat = " 󱄛 "
-RedHatEnterprise = " 󱄛 "
+Alpaquita = " "
+Alpine = " "
+AlmaLinux = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+RockyLinux = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Void = " "
+Windows = "󰍲 "
 
 
 [username]
@@ -74,6 +104,11 @@ format = '[[ $symbol $branch ](fg:#184D47 bg:#E0AED0)]($style)'
 style = "bg:#E0AED0"
 format = '[[($all_status$ahead_behind )](fg:#184D47 bg:#E0AED0)]($style)'
 
+[python]
+symbol = " "
+style = "bg:#AC87C5"
+format = '[[ $symbol ($version) ](fg:#1B3C73 bg:#AC87C5)]($style)'
+
 [nodejs]
 symbol = ""
 style = "bg:#AC87C5"
@@ -91,6 +126,26 @@ format = '[[ $symbol ($version) ](fg:#1B3C73 bg:#AC87C5)]($style)'
 
 [php]
 symbol = ""
+style = "bg:#AC87C5"
+format = '[[ $symbol ($version) ](fg:#1B3C73 bg:#AC87C5)]($style)'
+
+[ruby]
+symbol = " "
+style = "bg:#AC87C5"
+format = '[[ $symbol ($version) ](fg:#1B3C73 bg:#AC87C5)]($style)'
+
+[julia]
+symbol = ""
+style = "bg:#AC87C5"
+format = '[[ $symbol ($version) ](fg:#1B3C73 bg:#AC87C5)]($style)'
+
+[java]
+symbol = " "
+style = "bg:#AC87C5"
+format = '[[ $symbol ($version) ](fg:#1B3C73 bg:#AC87C5)]($style)'
+
+[swift]
+symbol = " "
 style = "bg:#AC87C5"
 format = '[[ $symbol ($version) ](fg:#1B3C73 bg:#AC87C5)]($style)'
 
